@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/Air%20pollution/mlruns/3/a6ff224476d1479ead17455807eaf520/artifacts
+end_time: 1735740918278
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+run_id: a6ff224476d1479ead17455807eaf520
+run_name: lightgbm unbalanced data
+run_uuid: a6ff224476d1479ead17455807eaf520
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735740912433
+status: 3
+tags: []
+user_id: Windows.10
