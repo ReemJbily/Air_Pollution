@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/Air%20pollution/mlruns/1/b9aa946f1e944ba4807110caa36507c3/artifacts
+end_time: 1735392813772
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: b9aa946f1e944ba4807110caa36507c3
+run_name: unequaled-stoat-287
+run_uuid: b9aa946f1e944ba4807110caa36507c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735392808366
+status: 3
+tags: []
+user_id: Windows.10

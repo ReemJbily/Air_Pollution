@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/Air%20pollution/mlruns/1/dff90024c02e4089ae8c8172f55452e2/artifacts
+end_time: 1735481279088
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: dff90024c02e4089ae8c8172f55452e2
+run_name: catboost balanced data
+run_uuid: dff90024c02e4089ae8c8172f55452e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735481274119
+status: 3
+tags: []
+user_id: Windows.10

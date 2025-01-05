@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="static/styles.css">
+        <title>Air Pollution</title>
+    </head>
+    <body>
+        <div class="Title">
+
+            <h1>Air Pollution</h1>           
+            
+        </div>
+        <div class="container">
+            <form id="Pollution_form" action="/classifier" method="post">                                    
+                    <div><input class="item" type="number" name="Temperature" placeholder="Temperature Value" min="0" max="100"></div>
+                    <div><input class="item" type="number" name="Humidity" placeholder="Humidity Value" min="0" max="100"></div>
+                    <div><input class="item" type="number" name="PM2.5" placeholder="PM2.5 Value" min="0" max="100"></div>
+                    <div><input class="item" type="number" name="PM10" placeholder="PM10 Value" min="0" max="100"></div>
+                    <div><input class="item" type="number" name="NO2" placeholder="NO2 Value" min="0" max="100"></div>
+                    <div><input class="item" type="number" name="SO2" placeholder="SO2 Value" min="0" max="100"></div>
+                    <div><input class="item" type="number" name="CO" placeholder="CO Value" min="0" max="100"></div>
+                    <div><input class="item" type="number" name="Proximity_to_Industrial_Areas" placeholder="Industrial Areas Value" min="0" max="100"></div>
+                    <div><input class="item" type="number" name="Population_Density" placeholder="Population Density Value" min="0" max="100"></div>                                                                                                                                                                    
+                    <div class="Clickable">
+                        <input type="submit" value="Air Pollution Status" class="button">
+                    </div>
+                </form>           
+        </div>
+        
+    </body>
+    </html>
