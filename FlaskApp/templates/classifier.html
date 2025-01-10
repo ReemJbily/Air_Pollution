@@ -5,12 +5,41 @@
         <title>Air Pollution Status</title>
     </head>
     <body>
-    <div class="container">
-        <h1 style="color: black;">Air Quality Status: {{quality}}</h1>
-                      
-    </div>
+    <div class="container">       
+        <h1 class='result' id="airQuality">Air Quality Status: {{quality}}</h1>                      
+    </div
     <div>
-        <a href="/">Home page</a>
+        <a class="reference" href="/">Home page</a>
     </div>
+
+    <script>
+        window.onload = function() {
+            console.log("load");
+            var airQualityElement = document.getElementById('airQuality');                        
+            function updateColor() {
+                var qualityValue = airQualityElement.textContent.split(': ')[1];
+                console.log("update");
+          
+                
+                switch(qualityValue.toLowerCase()) {                    
+                    case 'hazardous':
+                        airQualityElement.style.color = '#FF0000'; // Red for Hazardous
+                        break;
+                    case 'poor':
+                        airQualityElement.style.color = '#808080'; // Gray for Poor
+                        break;
+                    case 'moderate':
+                        airQualityElement.style.color = '#90EE90'; // Pale Green for Moderate
+                        break;
+                    case 'good':
+                        airQualityElement.style.color = '#013220'; // Light Green for Good
+                        break;
+                    default:
+                        airQualityElement.style.color = '#000000'; // Black for unknown categories
+                }
+            }
+            updateColor();
+        };
+    </script>
     </body>
 </html>

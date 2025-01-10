@@ -28,7 +28,9 @@ def classification():
             'CO': float(request.form['CO']),
             'Proximity_to_Industrial_Areas': float(request.form['Proximity_to_Industrial_Areas']),
             'Population_Density': float(request.form['Population_Density'])}
-   df = pd.DataFrame([features], columns=['Temperature', 'Humidity', 'PM2.5', 'PM10', 'NO2', 'SO2', 'CO', 'Proximity_to_Industrial_Areas', 'Population_Density'])        
+   df = pd.DataFrame([features], columns=['Temperature', 'Humidity', 'PM2.5', 
+                                          'PM10', 'NO2', 'SO2', 'CO', 
+                                          'Proximity_to_Industrial_Areas', 'Population_Density'])        
    prediction = model.predict(df)[0]        
    categories = ['Good', 'Moderate', 'Poor', 'Hazardous']
    air_quality = categories[prediction]        
