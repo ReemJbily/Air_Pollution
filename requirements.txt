@@ -1,7 +1,4 @@
-matplotlib
-numpy
+Flask
 pandas
-xgboost
-catboost
-lightgbm
-sklearn
+numpy
+gunicorn

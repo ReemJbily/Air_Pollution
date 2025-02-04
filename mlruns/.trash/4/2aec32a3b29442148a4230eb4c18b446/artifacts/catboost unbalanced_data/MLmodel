@@ -1,0 +1,17 @@
+artifact_path: catboost unbalanced_data
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.7.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+mlflow_version: 1.30.1
+model_uuid: be5cf9e6d00745fe9f5a931b6f83c58a
+run_id: 2aec32a3b29442148a4230eb4c18b446
+utc_time_created: '2025-01-28 07:20:26.040808'

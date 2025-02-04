@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/Air%20pollution/mlruns/4/b155e5809f874397be45143940f3599a/artifacts
+end_time: 1738048747457
+entry_point_name: ''
+experiment_id: '4'
+lifecycle_stage: active
+run_id: b155e5809f874397be45143940f3599a
+run_name: catboost unbalanced_data
+run_uuid: b155e5809f874397be45143940f3599a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738048718695
+status: 4
+tags: []
+user_id: Windows.10

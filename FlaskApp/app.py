@@ -2,14 +2,12 @@ from flask import Flask, request, jsonify,render_template, redirect, send_file, 
 import pickle
 import numpy as np
 import pandas as pd
-from xgboost import XGBClassifier
-
+import pickle
+from utility import model_loader
 
 app=Flask(__name__)
+model=model_loader.load_model()
 
-filename='D://MLOPS//Air pollution//pollution.pkl'
-
-model=pickle.load(open(filename, 'rb'))
 @app.route('/', methods=['GET', 'POST'])
 def home():
     if request.method=='POST':        

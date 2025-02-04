@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/Air%20pollution/mlruns/5/42ccb0ed1f9544ceb0324d9cd4da4897/artifacts
+end_time: 1738060285587
+entry_point_name: ''
+experiment_id: '5'
+lifecycle_stage: active
+run_id: 42ccb0ed1f9544ceb0324d9cd4da4897
+run_name: xgboost unbalanced_data
+run_uuid: 42ccb0ed1f9544ceb0324d9cd4da4897
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738060262465
+status: 3
+tags: []
+user_id: Windows.10

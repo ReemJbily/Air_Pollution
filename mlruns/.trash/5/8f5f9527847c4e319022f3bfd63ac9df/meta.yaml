@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/Air%20pollution/mlruns/5/8f5f9527847c4e319022f3bfd63ac9df/artifacts
+end_time: 1738062391282
+entry_point_name: ''
+experiment_id: '5'
+lifecycle_stage: active
+run_id: 8f5f9527847c4e319022f3bfd63ac9df
+run_name: xgboost outliers_kept_balanced_data
+run_uuid: 8f5f9527847c4e319022f3bfd63ac9df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738062378377
+status: 3
+tags: []
+user_id: Windows.10
